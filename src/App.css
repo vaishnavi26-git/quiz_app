@@ -1,0 +1,71 @@
+.App{
+  font-family: poppins;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .Quiz hr{
+  width: 80%;
+  height: 2px;
+  border: none;
+  background: #707070;
+  margin-bottom: 22px;
+} */
+.Menu, .Quiz, .endscreen{
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: #00d397;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Menu button, .Quiz button ,.endscreen button{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.options{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Quiz h1{
+  padding: 8px;
+  text-align: center;
+}
+.Quiz .next_btn{
+  width: 150px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  background-color: rgb(53, 53, 117);
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.Quiz .index{
+  margin: auto;
+  font-size: 18px;
+  color:rgb(150, 104, 150);
+}
+.correct{
+  background: green;
+  border-color: #00d397;
+}
+.wrong{
+  background: red;
+  border-color: #FF4A4A;
+}
